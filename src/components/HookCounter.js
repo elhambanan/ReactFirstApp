@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 const HookCounter = () => {
     const [count, setCount] = useState(0);
     const addOneHandler = () =>{
